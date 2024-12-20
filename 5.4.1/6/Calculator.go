@@ -1,8 +1,9 @@
 package main
 
+import "time"
+
 func main() {
-	// Create an infinite loop that never exits
 	for {
-		// Empty loop body - program will just keep running
+		time.Sleep(10 * time.Minute)
 	}
 }
